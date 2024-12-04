@@ -10,6 +10,7 @@
   <style>
     body {
       font-family: "Poppins";
+      
     }
   </style>
   <!-- Google Font -->
@@ -25,9 +26,40 @@
     <div class="container-fluid">
       <span class="navbar-brand mb-0 h1" style="color: beige;">My Portofolio</span>
       <div class="dropdown">
-        <a class="btn btn-secondary dropdown" href="#" role="button"><i class="fas fa-bars"></i></a>
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-bars"></i></button>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="#home">Home</a></li>
+          <li><a class="dropdown-item" href="#about">About</a</li>
+          <li><a class="dropdown-item"href="#services">Services</a></li>
+          <li><a class="dropdown-item" href="#portofolio">Portofolio</a></li>
+          <li><a class="dropdown-item" href="#testimoni">Testimoni</a></li>
+        </ul>
       </div>
     </div>
   </nav>
+  <!-- Navigation End -->
+  
+  <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="container">
+        <div class="row min-100-vh align-item-center align-content-center">
+          <!-- Home Image -->
+          <div class="home-image">
+            <div class="col-md-6">
+              <img class="rounded-circle col-md-6" style="width: 200px;" src="img/profil.JPG" alt="" srcset="">
+            </div>
+          </div>
+          <!-- Bio -->
+          <div class="col-md-6 order-md-first">
+            <div class="home-text">
+              <p class="text-muted">Hai Saya</p>
+              <h1>Yahya</h1>
+              <h2>Full Stack Developer</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- Home Section -->
 </body>
 </html>
